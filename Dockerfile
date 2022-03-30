@@ -1,7 +1,8 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-    apt upgrade --yes
+    apt upgrade --yes && \
+    apt-get install make --yes
     
 RUN apt-get install python3 --yes && \
     apt install python3-pip --yes
