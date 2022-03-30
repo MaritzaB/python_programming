@@ -12,3 +12,6 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
     && apt-get upgrade -y \
     && apt-get install texlive-latex-base texlive-latex-extra texlive-fonts-recommended xzdec -y \
     && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --upgrade pytest
+RUN pip install black
