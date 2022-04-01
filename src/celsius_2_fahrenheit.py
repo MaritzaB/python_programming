@@ -6,8 +6,10 @@ print("Please introduce the temperature in degrees Celsius: \n")
 
 degrees_celsius = float(input())
 
+
 def convert_celsius_to_fahrenheit(degrees_celsius):
     degrees_fahrenheit = 32 + (9 * degrees_celsius / 5)
-    return(degrees_fahrenheit)
+    return degrees_fahrenheit
+
 
 print(f"The temperature in degrees fahrenheit is {convert_celsius_to_fahrenheit(degrees_celsius)}")
