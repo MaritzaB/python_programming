@@ -9,4 +9,4 @@ from .kmh_to_ms import *  # noqa
 # from .recursive_residual import * #noqa
 # from .recursive_sum import * #noqa
 # from .split_number import * #noqa
-# from .word_counter import * #noqa
+from .word_counter import *  # noqa
