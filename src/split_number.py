@@ -1,4 +1,4 @@
-# Un programa que lea un número entero de 3 cifras y muestre por separado las
+# 03 Un programa que lea un número entero de 3 cifras y muestre por separado las
 # cifras de ese número
 
 while True:
@@ -8,5 +8,9 @@ while True:
     elif len(number) != 3:
         print("👀 The number you've entered doesn't have 3 digits 👎")
     else:
-        print(f"🤖 The digits of the number are: {number[0]}, {number[1]} and {number[2]} 🙌 \n")
+        int_number = int(number)
+        hundreds = int_number // 100  # math.trunc(int_number/100) <-- con import math
+        tens = (int_number // 10) % 10
+        units = int_number % 10
+        print(f"🤖 The digits of the number are: {hundreds}, {tens} and {units} 🙌 \n")
         break
