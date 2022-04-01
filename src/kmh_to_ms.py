@@ -1,4 +1,4 @@
-# Programa que lea en una variable una velocidad en km/h y la transforme a m/s. 
+# 02 Programa que lea en una variable una velocidad en km/h y la transforme a m/s.
 
 print("Please enter velocity in km/h: \n")
 
