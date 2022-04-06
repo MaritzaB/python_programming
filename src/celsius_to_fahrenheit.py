@@ -2,10 +2,11 @@
 # centígrados para que mediante la aplicación de la fórmula F=32+(9*C/5),
 # convierta esa cantidad a grados Fahrenheit.
 
-#print("Please introduce the temperature in degrees Celsius: \n")
+# print("Please introduce the temperature in degrees Celsius: \n")
 def ask_a_number():
     degrees_celsius = input("Please, enter a temperature")
     return degrees_celsius
+
 
 def convert_celsius_to_fahrenheit(degrees_celsius):
     degrees_celsius = float(degrees_celsius)

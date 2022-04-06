@@ -1,2 +1,2 @@
-# Un programa para calcular el resido de una división en forma recursica e
+# 09 Un programa para calcular el residuo de una división en forma recursiva e
 # iterativa.

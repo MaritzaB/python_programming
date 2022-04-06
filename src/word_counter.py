@@ -1,4 +1,4 @@
-# Un programa para contar el número de palabras en una frase.
+# 05 Un programa para contar el número de palabras en una frase.
 
 # quote = str(input("Please enter you quote: \n"))
 
