@@ -20,5 +20,5 @@ def get_perfect_numbers(start, end):
     return perfect_numbers
 
 
-def despliegaDatos(start=1, end=100):
+def print_perfect_numbers(start=1, end=100):
     print(f"The perfect numbers between {start} and {end} are, {get_perfect_numbers(start,end)}")
